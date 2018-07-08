@@ -219,14 +219,14 @@ public class Tablero extends JPanel implements ActionListener {
             if (craft.getX() >= 440 && craft.getX() <= 500 && craft.getY() == 1) {
                 m = 2;
                 puntaje += 500;
-                white.setX(120);
-                white.setY(48);
+                white.setX(460);
+                white.setY(320);
                 white.setActivo(true);
-                mango.setX(305);
-                mango.setY(150);
+                mango.setX(771);
+                mango.setY(636);
                 mango.setActivo(true);
-                purple.setX(800);
-                purple.setY(670);
+                purple.setX(120);
+                purple.setY(75);
                 purple.setActivo(true);
                 estrella.setX(20);
                 estrella.setY(60);

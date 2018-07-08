@@ -21,12 +21,12 @@ public class Enemigo2 {
     private int b=0;
     private boolean activo;
     
-    Image de81 = new ImageIcon(getClass().getResource("/recursos/81.png")).getImage();
-    Image de82 = new ImageIcon(getClass().getResource("/recursos/82.png")).getImage();
-    Image de83 = new ImageIcon(getClass().getResource("/recursos/83.png")).getImage();
-    Image izq69 = new ImageIcon(getClass().getResource("/recursos/69.png")).getImage();
-    Image izq70 = new ImageIcon(getClass().getResource("/recursos/70.png")).getImage();
-    Image izq71 = new ImageIcon(getClass().getResource("/recursos/71.png")).getImage();
+    Image de81 = new ImageIcon(getClass().getResource("/recursos/fenix.gif")).getImage();
+    Image de82 = new ImageIcon(getClass().getResource("/recursos/fenix.gif")).getImage();
+    Image de83 = new ImageIcon(getClass().getResource("/recursos/fenix.gif")).getImage();
+    Image izq69 = new ImageIcon(getClass().getResource("/recursos/fenix.gif")).getImage();
+    Image izq70 = new ImageIcon(getClass().getResource("/recursos/fenix.gif")).getImage();
+    Image izq71 = new ImageIcon(getClass().getResource("/recursos/fenix.gif")).getImage();
     public Enemigo2() {
         image = de81;
         initCrafti();

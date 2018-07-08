@@ -17,12 +17,12 @@ public class Enemigo1 {
     private int b=0;
     private boolean activo;
     
-    Image ab9 = new ImageIcon(getClass().getResource("/recursos/9.png")).getImage();
-    Image ab10 = new ImageIcon(getClass().getResource("/recursos/10.png")).getImage();
-    Image ab11 = new ImageIcon(getClass().getResource("/recursos/11.png")).getImage();
-    Image a45 = new ImageIcon(getClass().getResource("/recursos/45.png")).getImage();
-    Image a46 = new ImageIcon(getClass().getResource("/recursos/46.png")).getImage();
-    Image a47= new ImageIcon(getClass().getResource("/recursos/47.png")).getImage();
+    Image ab9 = new ImageIcon(getClass().getResource("/recursos/hip.gif")).getImage();
+    Image ab10 = new ImageIcon(getClass().getResource("/recursos/hip.gif")).getImage();
+    Image ab11 = new ImageIcon(getClass().getResource("/recursos/hip.gif")).getImage();
+    Image a45 = new ImageIcon(getClass().getResource("/recursos/hip.gif")).getImage();
+    Image a46 = new ImageIcon(getClass().getResource("/recursos/hip.gif")).getImage();
+    Image a47= new ImageIcon(getClass().getResource("/recursos/hip.gif")).getImage();
     public Enemigo1() {
         image= ab9;
         initCrafti();

@@ -21,18 +21,18 @@ public class Enemigo3 {
     private int b=0;
     private boolean activo;
     
-    Image de24 = new ImageIcon(getClass().getResource("/recursos/24.png")).getImage();
-    Image de25 = new ImageIcon(getClass().getResource("/recursos/25.png")).getImage();
-    Image de26 = new ImageIcon(getClass().getResource("/recursos/26.png")).getImage();
-    Image ab0 = new ImageIcon(getClass().getResource("/recursos/0.png")).getImage();
-    Image ab1 = new ImageIcon(getClass().getResource("/recursos/1.png")).getImage();
-    Image ab2 = new ImageIcon(getClass().getResource("/recursos/2.png")).getImage();
-    Image ar36 = new ImageIcon(getClass().getResource("/recursos/36.png")).getImage();
-    Image ar37 = new ImageIcon(getClass().getResource("/recursos/37.png")).getImage();
-    Image ar38 = new ImageIcon(getClass().getResource("/recursos/38.png")).getImage();
-    Image izq12 = new ImageIcon(getClass().getResource("/recursos/12.png")).getImage();
-    Image izq13 = new ImageIcon(getClass().getResource("/recursos/13.png")).getImage();
-    Image izq14 = new ImageIcon(getClass().getResource("/recursos/14.png")).getImage();
+    Image de24 = new ImageIcon(getClass().getResource("/recursos/mino.gif")).getImage();
+    Image de25 = new ImageIcon(getClass().getResource("/recursos/mino.gif")).getImage();
+    Image de26 = new ImageIcon(getClass().getResource("/recursos/mino.gif")).getImage();
+    Image ab0 = new ImageIcon(getClass().getResource("/recursos/mino.gif")).getImage();
+    Image ab1 = new ImageIcon(getClass().getResource("/recursos/mino.gif")).getImage();
+    Image ab2 = new ImageIcon(getClass().getResource("/recursos/mino.gif")).getImage();
+    Image ar36 = new ImageIcon(getClass().getResource("/recursos/mino.gif")).getImage();
+    Image ar37 = new ImageIcon(getClass().getResource("/recursos/mino.gif")).getImage();
+    Image ar38 = new ImageIcon(getClass().getResource("/recursos/mino.gif")).getImage();
+    Image izq12 = new ImageIcon(getClass().getResource("/recursos/mino.gif")).getImage();
+    Image izq13 = new ImageIcon(getClass().getResource("/recursos/mino.gif")).getImage();
+    Image izq14 = new ImageIcon(getClass().getResource("/recursos/mino.gif")).getImage();
     
     public Enemigo3() {
         image = de24;
