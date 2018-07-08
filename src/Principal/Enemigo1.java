@@ -27,7 +27,7 @@ public class Enemigo1 {
         image= ab9;
         initCrafti();
     }
-
+//hola que hace 15
     public boolean isActivo() {
         return activo;
     }
