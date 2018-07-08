@@ -17,7 +17,7 @@ public class Personaje {
     private boolean activo = false;
     Image esce1 = new ImageIcon(getClass().getResource("/recursos/Forest.png")).getImage();
     Image esce2 = new ImageIcon(getClass().getResource("/recursos/dungeon.png")).getImage();
-    Image esce3 = new ImageIcon(getClass().getResource("/recursos/Final.png")).getImage();
+    Image esce3 = new ImageIcon(getClass().getResource("/recursos/Final.jpg")).getImage();
     //Izquierda
     Image gI1 = new ImageIcon(getClass().getResource("/recursos/iz1.png")).getImage();
     Image gI2 = new ImageIcon(getClass().getResource("/recursos/iz2.png")).getImage();
