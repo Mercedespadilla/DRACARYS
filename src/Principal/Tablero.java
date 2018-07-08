@@ -324,7 +324,7 @@ public class Tablero extends JPanel implements ActionListener {
                     //System.out.println("GAME OVER");
                 }
                 else if(craft.isActivo() && m == 3 && bossvida <= 0){
-                    java.awt.Image Win = new ImageIcon(getClass().getResource("/recursos/YouWin.jpeg")).getImage();
+                    java.awt.Image Win = new ImageIcon(getClass().getResource("/recursos/YouWin.png")).getImage();
                     fondo = Win;
                     craft.setX(1000);
                     craft.setY(1000);
