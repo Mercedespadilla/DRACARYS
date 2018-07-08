@@ -209,10 +209,12 @@ public class Tablero extends JPanel implements ActionListener {
         }
         if(!mango.isActivo() && !white.isActivo() && !purple.isActivo()){
             if(m == 1 && craft.isActivo()){
-                g2d.drawImage(flecha, 483, 1, this);
+                g2d.drawImage(flecha, 885, 150, this);
+                
             }
             if(m == 2 && craft.isActivo()){
-                g2d.drawImage(flecha, 885, 150, this);
+                g2d.drawImage(flecha, 483, 1, this);
+                //g2d.drawImage(flecha, 885, 150, this);
             }
             if (craft.getX() >= 440 && craft.getX() <= 500 && craft.getY() == 1) {
                 m = 2;
