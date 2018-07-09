@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package Principal;
 
 import java.awt.Image;
@@ -15,7 +11,7 @@ public class Estrella {
     private final Image image;
     private boolean activo;
     
-    java.awt.Image estre = new ImageIcon(getClass().getResource("/recursos/Estrella.gif")).getImage();
+    java.awt.Image estre = new ImageIcon(getClass().getResource("/recursos/estrella.png")).getImage();
     public Estrella() {
         image = estre;
         initCrafti();

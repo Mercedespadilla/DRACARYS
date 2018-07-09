@@ -16,7 +16,8 @@ public class Personaje {
     private int a=0;
     private boolean activo = false;
     
-    Image esce1 = new ImageIcon(getClass().getResource("/recursos/Forest.png")).getImage();
+    Image caldero = new ImageIcon(getClass().getResource("/recursos/pocimas.png")).getImage();
+    Image esce1 = new ImageIcon(getClass().getResource("/recursos/dungeon.png")).getImage();
     Image esce2 = new ImageIcon(getClass().getResource("/recursos/FONDOIDEAL23.jpg")).getImage();
     Image esce3 = new ImageIcon(getClass().getResource("/recursos/Final.jpg")).getImage();
     //Izquierda
@@ -58,69 +59,8 @@ public class Personaje {
         //Validando colisiones con el escenario
         switch(m){
             case 1:
-                if (x == 920) {
-                    x = 919;
-                } else if (y == 871) {
-                    y = 870;
-                } else if (y == 0) {
-                    y = 1;
-                } else if (x == 0) {
-                    x = 1;
-                } //Validando colisiones con el escenario
-                //lago del demonio
-                else if (x == 279 && y <= 165 && y >= 65) {
-                    x = 278;
-                } else if (y == 60 && x <= 670 && x >= 279) {
-                    y = 59;
-                } else if (y == 165 && x <= 400 && x >= 279) {
-                    y = 166;
-                } else if (x == 400 && y <= 300 && y >= 165) {
-                    x = 399;
-                } else if (y == 295 && x <= 540 && x >= 400) {
-                    y = 296;
-                } else if (x == 540 && y <= 295 && y >= 165) {
-                    x = 541;
-                } else if (y == 165 && x <= 670 && x >= 540) {
-                    y = 166;
-                } else if (x == 670 && y <= 165 && y >= 65) {
-                    x = 671;
-                } //tiendita
-                else if (x == 105 && y <= 14 && y >= 0) {
-                    x = 104;
-                } else if (y == 15 && x <= 363 && x >= 104) {
-                    y = 16;
-                } else if (x == 363 && y <= 14 && y >= 0) {
-                    x = 364;
-                } //pozo
-                else if (x == 615 && y <= 700 && y >= 635) {
-                    x = 614;
-                } else if (x == 670 && y <= 700 && y >= 635) {
-                    x = 671;
-                } else if (y == 700 && x <= 670 && x >= 615) {
-                    y = 701;
-                } else if (y == 635 && x <= 670 && x >= 615) {
-                    y = 633;
-                } //torre
-                else if (x == 385 && y <= 555 && y >= 325) {
-                    x = 384;
-                } else if (x == 530 && y <= 555 && y >= 325) {
-                    x = 531;
-                } else if (y == 325 && x <= 530 && x >= 385) {
-                    y = 324;
-                } else if (y == 555 && x <= 530 && x >= 385) {
-                    y = 556;
-                } //piedritas
-                else if (x == 195 && y >= 770) {
-                    x = 194;
-                } else if (x == 370 && y >= 770) {
-                    x = 371;
-                } else if (y == 770 && x <= 370 && x >= 195) {
-                    y = 769;
-                } else {
-                    x += dx;
-                    y += dy;
-                }
-                /*if (x == 895) {
+                               //Limites 
+                if (x == 895) {
                     x = 894;
                 } else if (y == 850) {
                     y = 849;
@@ -225,7 +165,8 @@ public class Personaje {
                 } else {
                     x += dx;
                     y += dy;
-                }*/
+                }
+              
                 break;
             case 2:
                 //Limites  

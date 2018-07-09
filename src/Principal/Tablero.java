@@ -66,7 +66,7 @@ public class Tablero extends JPanel implements ActionListener {
 
     public Tablero() {
         java.awt.Image start = new ImageIcon(getClass().getResource("/recursos/start.png")).getImage();
-        //java.awt.Image start = new ImageIcon(getClass().getResource("/recursos/start2.png")).getImage(); EL OTRO START
+       
         fondo = start;
         initBoard();
     }
@@ -116,6 +116,7 @@ public class Tablero extends JPanel implements ActionListener {
         doDrawing(g);
         Toolkit.getDefaultToolkit().sync();
     }
+ 
 
     private void doDrawing(Graphics g) {
 
@@ -252,18 +253,13 @@ public class Tablero extends JPanel implements ActionListener {
         }
         switch (m) {
             case 1:
-                java.awt.Image fond1 = new ImageIcon(getClass().getResource("/recursos/Forest.png")).getImage();
+
+                java.awt.Image fond1 = new ImageIcon(getClass().getResource("/recursos/dungeon.png")).getImage();
                 fondo = fond1;
                 punta.setVisible(true);
                 punta.setLocation(810, 5);
                 punta.setText(String.valueOf(puntaje));
-                /*punta.setLocation(810, 5);
-                punta.setText(String.valueOf(puntaje));
-                if (ini == 0) {
-                    craft.setX(17);
-                    craft.setY(850);
-                    ini = 2;
-                }*/
+            
                 break;
             case 2:
                 Image fond = new ImageIcon(getClass().getResource("/recursos/FONDOIDEAL23.jpg")).getImage(); 
