@@ -22,22 +22,22 @@ public class BOSS {
     private boolean activo;
     
     //BOSS
-    Image f1 = new ImageIcon(getClass().getResource("/recursos/90.png")).getImage();
-    Image f2 = new ImageIcon(getClass().getResource("/recursos/91.png")).getImage();
-    Image f3 = new ImageIcon(getClass().getResource("/recursos/92.png")).getImage();
-    Image f4 = new ImageIcon(getClass().getResource("/recursos/93.png")).getImage();
-    Image iz1 = new ImageIcon(getClass().getResource("/recursos/94.png")).getImage();
-    Image iz2 = new ImageIcon(getClass().getResource("/recursos/95.png")).getImage();
-    Image iz3 = new ImageIcon(getClass().getResource("/recursos/96.png")).getImage();
-    Image iz4 = new ImageIcon(getClass().getResource("/recursos/97.png")).getImage();
-    Image de1 = new ImageIcon(getClass().getResource("/recursos/98.png")).getImage();
-    Image de2 = new ImageIcon(getClass().getResource("/recursos/99.png")).getImage();
-    Image de3 = new ImageIcon(getClass().getResource("/recursos/100.png")).getImage();
-    Image de4 = new ImageIcon(getClass().getResource("/recursos/110.png")).getImage();
-    Image e1 = new ImageIcon(getClass().getResource("/recursos/120.png")).getImage();    
-    Image e2 = new ImageIcon(getClass().getResource("/recursos/130.png")).getImage();
-    Image e3 = new ImageIcon(getClass().getResource("/recursos/140.png")).getImage();
-    Image e4 = new ImageIcon(getClass().getResource("/recursos/150.png")).getImage();
+    Image f1 = new ImageIcon(getClass().getResource("/recursos/dra.gif")).getImage();
+    Image f2 = new ImageIcon(getClass().getResource("/recursos/dra.gif")).getImage();
+    Image f3 = new ImageIcon(getClass().getResource("/recursos/dra.gif")).getImage();
+    Image f4 = new ImageIcon(getClass().getResource("/recursos/dra.gif")).getImage();
+    Image iz1 = new ImageIcon(getClass().getResource("/recursos/dra.gif")).getImage();
+    Image iz2 = new ImageIcon(getClass().getResource("/recursos/dra.gif")).getImage();
+    Image iz3 = new ImageIcon(getClass().getResource("/recursos/dra.gif")).getImage();
+    Image iz4 = new ImageIcon(getClass().getResource("/recursos/dra.gif")).getImage();
+    Image de1 = new ImageIcon(getClass().getResource("/recursos/dra.gif")).getImage();
+    Image de2 = new ImageIcon(getClass().getResource("/recursos/dra.gif")).getImage();
+    Image de3 = new ImageIcon(getClass().getResource("/recursos/dra.gif")).getImage();
+    Image de4 = new ImageIcon(getClass().getResource("/recursos/dra.gif")).getImage();
+    Image e1 = new ImageIcon(getClass().getResource("/recursos/dra.gif")).getImage();    
+    Image e2 = new ImageIcon(getClass().getResource("/recursos/dra.gif")).getImage();
+    Image e3 = new ImageIcon(getClass().getResource("/recursos/dra.gif")).getImage();
+    Image e4 = new ImageIcon(getClass().getResource("/recursos/dra.gif")).getImage();
     Image Fi1 = new ImageIcon(getClass().getResource("/recursos/Fi1.png")).getImage();
     Image Fi2 = new ImageIcon(getClass().getResource("/recursos/Fi2.png")).getImage();
     Image Fi3 = new ImageIcon(getClass().getResource("/recursos/Fi3.png")).getImage();
