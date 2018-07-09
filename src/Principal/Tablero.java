@@ -263,7 +263,7 @@ public class Tablero extends JPanel implements ActionListener {
             
                 break;
             case 2:
-                Image fond = new ImageIcon(getClass().getResource("/recursos/FONDOIDEAL23.jpg")).getImage(); 
+                Image fond = new ImageIcon(getClass().getResource("/recursos/FONDOIDEAL27.jpg")).getImage(); 
                 fondo = fond;
                 /*punta.setVisible(true);
                 punta.setLocation(810, 5);
