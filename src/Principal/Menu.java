@@ -5,11 +5,11 @@ import java.awt.EventQueue;
 import javax.swing.JFrame;
 import java.applet.AudioClip;
 
-public class Mueveimagen extends JFrame {
+public class Menu extends JFrame {
     AudioClip sonido;
-    public Mueveimagen() {
+    public Menu() {
       
-        super("Oriyinal");
+        super("DRACARYS");
         sonido = java.applet.Applet.newAudioClip(getClass().getResource("/recursos/music.wav"));
         initUI();
     }
@@ -17,10 +17,10 @@ public class Mueveimagen extends JFrame {
     private void initUI() {
         
         add(new Tablero());
-        setSize(960, 960);
+        setSize(960, 700);
         setResizable(false);
         
-        setTitle("The Journey");
+        setTitle("THE DRACARYS NAME");
         setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         
@@ -32,7 +32,7 @@ public class Mueveimagen extends JFrame {
         EventQueue.invokeLater(new Runnable() {
             @Override
             public void run() {
-                Mueveimagen ex = new Mueveimagen();
+                Menu ex = new Menu();
                 ex.setVisible(true);
             }
         });
