@@ -190,7 +190,7 @@ public class Tablero extends JPanel implements ActionListener {
         }
         if (boss.isActivo()) {
             g2d.drawImage(boss.getImage(), boss.getX(), boss.getY(), this);
-            if ((bala.getX()) >= boss.getX() && (bala.getX()) <= (boss.getX() + 48) && (bala.getY()) >= (boss.getY()) && (bala.getY()) <= (boss.getY() + 48)) {
+            if ((bala.getX()) >= boss.getX() && (bala.getX()) <= (boss.getX() + 200) && (bala.getY()) >= (boss.getY()) && (bala.getY()) <= (boss.getY() + 200)) {
                 bala.setActivo(false);
                 bala.setX(0);
                 bossvida = (bossvida - 20);
@@ -199,9 +199,25 @@ public class Tablero extends JPanel implements ActionListener {
                     boss.setActivo(false);
                 }
             }
-            if ((craft.getX()) >= boss.getX() && (craft.getX()) <= (boss.getX() + 36) && (craft.getY()) >= (boss.getY()) && (craft.getY()) <= (boss.getY() + 36) || (craft.getX()) >= boss.getX() && (craft.getX()) <= (boss.getX() + 32) && (craft.getY()) >= (boss.getY()) && (craft.getY()) <= (boss.getY() + 32) || (craft.getX()) >= purple.getX() && (craft.getX()) <= (purple.getX() + 28) && (craft.getY()) >= (purple.getY()) && (craft.getY()) <= (purple.getY() + 28) || (craft.getX()) >= purple.getX() && (craft.getX()) <= (purple.getX() + 24) && (craft.getY()) >= (purple.getY()) && (craft.getY()) <= (purple.getY() + 24) || (craft.getX()) >= purple.getX() && (craft.getX()) <= (purple.getX() + 20) && (craft.getY()) >= (purple.getY()) && (craft.getY()) <= (purple.getY() + 20) || (craft.getX()) >= purple.getX() && (craft.getX()) <= (purple.getX() + 16) && (craft.getY()) >= (purple.getY()) && (craft.getY()) <= (purple.getY() + 16) || (craft.getX()) >= purple.getX() && (craft.getX()) <= (purple.getX() + 12) && (craft.getY()) >= (purple.getY()) && (craft.getY()) <= (purple.getY() + 12) || (craft.getX()) >= purple.getX() && (craft.getX()) <= (purple.getX() + 8) && (craft.getY()) >= (purple.getY()) && (craft.getY()) <= (purple.getY() + 8) || (craft.getX()) >= purple.getX() && (craft.getX()) <= (purple.getX() + 4) && (craft.getY()) >= (purple.getY()) && (craft.getY()) <= (purple.getY() + 4)) {
-                System.out.println("CHOCARON WE :v");
-                vida = (vida - 10);
+            if ((craft.getX()) >= boss.getX() && (craft.getX()) <= (boss.getX() + 200) && (craft.getY()) >= (boss.getY()) && 
+                (craft.getY()) <= (boss.getY() + 200) || (craft.getX()) >= boss.getX() && (craft.getX()) <= (boss.getX() + 200) &&
+                (craft.getY()) >= (boss.getY()) && (craft.getY()) <= (boss.getY() + 200) || (craft.getX()) >= purple.getX() && 
+                (craft.getX()) <= (purple.getX() + 28) && (craft.getY()) >= (purple.getY()) && 
+                (craft.getY()) <= (purple.getY() + 28) || (craft.getX()) >= purple.getX() && 
+                (craft.getX()) <= (purple.getX() + 24) && (craft.getY()) >= (purple.getY()) && 
+                (craft.getY()) <= (purple.getY() + 24) || (craft.getX()) >= purple.getX() && 
+                (craft.getX()) <= (purple.getX() + 20) && (craft.getY()) >= (purple.getY()) && 
+                (craft.getY()) <= (purple.getY() + 20) || (craft.getX()) >= purple.getX() &&
+                (craft.getX()) <= (purple.getX() + 16) && (craft.getY()) >= (purple.getY()) && 
+                (craft.getY()) <= (purple.getY() + 16) || (craft.getX()) >= purple.getX() && 
+                (craft.getX()) <= (purple.getX() + 12) && (craft.getY()) >= (purple.getY()) && 
+                (craft.getY()) <= (purple.getY() + 12) || (craft.getX()) >= purple.getX() && 
+                (craft.getX()) <= (purple.getX() + 8) && (craft.getY()) >= (purple.getY()) && 
+                (craft.getY()) <= (purple.getY() + 8) || (craft.getX()) >= purple.getX() && 
+                (craft.getX()) <= (purple.getX() + 4) && (craft.getY()) >= (purple.getY()) && 
+                (craft.getY()) <= (purple.getY() + 4)) {
+                System.out.println("CHOCARON WE");
+                vida = (vida - 20);
                 System.out.println("Vida actual"+vida);
             }
         }
@@ -255,7 +271,7 @@ public class Tablero extends JPanel implements ActionListener {
         switch (m) {
             case 1:
 
-                java.awt.Image fond1 = new ImageIcon(getClass().getResource("/recursos/dungeon.png")).getImage();
+                java.awt.Image fond1 = new ImageIcon(getClass().getResource("/recursos/forest.png")).getImage();
                 fondo = fond1;
                 punta.setVisible(true);
                 punta.setLocation(810, 5);
@@ -391,12 +407,12 @@ public class Tablero extends JPanel implements ActionListener {
                     //add(punta);
                 }
                 if(!craft.isActivo()){
-                    nickname = JOptionPane.showInputDialog("What is the name of who has tried to beat me? ", "Player");
+                    nickname = JOptionPane.showInputDialog("¿Cual es el nombre quien trataba de vencerme? ", "Jugador");
                     System.out.println(nickname);
                 }
                 if(craft.isActivo() && m == 3 && bossvida <=0){
                     boss.setActivo(false);
-                    nickname = JOptionPane.showInputDialog("Whats yoour name, hero? ", "Player");
+                    nickname = JOptionPane.showInputDialog("¿Cual es tu nombre, heroe? ", "Jugador");
                     System.out.println(nickname);
                 }
             }
