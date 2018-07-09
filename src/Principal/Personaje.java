@@ -16,8 +16,8 @@ public class Personaje {
     private int a=0;
     private boolean activo = false;
     
-    Image caldero = new ImageIcon(getClass().getResource("/recursos/pocimas.png")).getImage();
-    Image esce1 = new ImageIcon(getClass().getResource("/recursos/dungeon.png")).getImage();
+    Image caldero = new ImageIcon(getClass().getResource("/recursos/FONDOF.jpg")).getImage();
+    Image esce1 = new ImageIcon(getClass().getResource("/recursos/FONDOF.jpg")).getImage();
     Image esce2 = new ImageIcon(getClass().getResource("/recursos/FONDOIDEAL27.jpg")).getImage();
     Image esce3 = new ImageIcon(getClass().getResource("/recursos/Final.jpg")).getImage();
     //Izquierda

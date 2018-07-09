@@ -85,7 +85,7 @@ public class Tablero extends JPanel implements ActionListener {
         purple.setActivo(true);
         estrella = new Estrella();
         craft.setActivo(true);
-        estrella.setActivo(true);
+        estrella.setActivo(false);
         boss = new BOSS();
         h2 = new hilo2();
         h2.start();
@@ -184,7 +184,7 @@ public class Tablero extends JPanel implements ActionListener {
                 g2d.drawImage(estrella.getImage(), estrella.getX(), estrella.getY(), this);
                 if((craft.getX()) >= estrella.getX() && (craft.getX()) <= (estrella.getX() + 40) && (craft.getY()) >= (estrella.getY()) && (craft.getY()) <= (estrella.getY() + 40) || (craft.getX()) >= estrella.getX() && (craft.getX()) <= (estrella.getX() + 40) && (craft.getY()) >= (estrella.getY()) && (craft.getY()) <= (estrella.getY() + 40) || (craft.getX()) >= estrella.getX() && (craft.getX()) <= (estrella.getX() + 40) && (craft.getY()) >= (estrella.getY()) && (craft.getY()) <= (estrella.getY() + 40) || (craft.getX()) >= estrella.getX() && (craft.getX()) <= (estrella.getX() + 40) && (craft.getY()) >= (estrella.getY()) && (craft.getY()) <= (estrella.getY() + 40) || (craft.getX()) >= estrella.getX() && (craft.getX()) <= (estrella.getX() + 40) && (craft.getY()) >= (estrella.getY()) && (craft.getY()) <= (estrella.getY() + 40) || (craft.getX()) >= estrella.getX() && (craft.getX()) <= (estrella.getX() + 40) && (craft.getY()) >= (estrella.getY()) && (craft.getY()) <= (estrella.getY() + 40) || (craft.getX()) >= estrella.getX() && (craft.getX()) <= (estrella.getX() + 40) && (craft.getY()) >= (estrella.getY()) && (craft.getY()) <= (estrella.getY() + 40) || (craft.getX()) >= estrella.getX() && (craft.getX()) <= (estrella.getX() + 40) && (craft.getY()) >= (estrella.getY()) && (craft.getY()) <= (estrella.getY() + 40) || (craft.getX()) >= estrella.getX() && (craft.getX()) <= (estrella.getX() + 40) && (craft.getY()) >= (estrella.getY()) && (craft.getY()) <= (estrella.getY() + 40)){
                     puntaje = (puntaje * 2);
-                    estrella.setActivo(false);
+                    estrella.setActivo(true);
                 }
             }
         }
@@ -271,7 +271,7 @@ public class Tablero extends JPanel implements ActionListener {
         switch (m) {
             case 1:
 
-                java.awt.Image fond1 = new ImageIcon(getClass().getResource("/recursos/forest.png")).getImage();
+                java.awt.Image fond1 = new ImageIcon(getClass().getResource("/recursos/FONDOF.jpg")).getImage();
                 fondo = fond1;
                 punta.setVisible(true);
                 punta.setLocation(810, 5);
