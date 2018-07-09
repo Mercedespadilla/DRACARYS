@@ -199,9 +199,9 @@ public class Tablero extends JPanel implements ActionListener {
                     boss.setActivo(false);
                 }
             }
-            if ((craft.getX()) >= boss.getX() && (craft.getX()) <= (boss.getX() + 36) && (craft.getY()) >= (boss.getY()) && 
-                (craft.getY()) <= (boss.getY() + 36) || (craft.getX()) >= boss.getX() && (craft.getX()) <= (boss.getX() + 32) &&
-                (craft.getY()) >= (boss.getY()) && (craft.getY()) <= (boss.getY() + 32) || (craft.getX()) >= purple.getX() && 
+            if ((craft.getX()) >= boss.getX() && (craft.getX()) <= (boss.getX() + 200) && (craft.getY()) >= (boss.getY()) && 
+                (craft.getY()) <= (boss.getY() + 200) || (craft.getX()) >= boss.getX() && (craft.getX()) <= (boss.getX() + 200) &&
+                (craft.getY()) >= (boss.getY()) && (craft.getY()) <= (boss.getY() + 200) || (craft.getX()) >= purple.getX() && 
                 (craft.getX()) <= (purple.getX() + 28) && (craft.getY()) >= (purple.getY()) && 
                 (craft.getY()) <= (purple.getY() + 28) || (craft.getX()) >= purple.getX() && 
                 (craft.getX()) <= (purple.getX() + 24) && (craft.getY()) >= (purple.getY()) && 
@@ -216,8 +216,8 @@ public class Tablero extends JPanel implements ActionListener {
                 (craft.getY()) <= (purple.getY() + 8) || (craft.getX()) >= purple.getX() && 
                 (craft.getX()) <= (purple.getX() + 4) && (craft.getY()) >= (purple.getY()) && 
                 (craft.getY()) <= (purple.getY() + 4)) {
-                System.out.println("CHOCARON WE :v");
-                vida = (vida - 10);
+                System.out.println("CHOCARON WE");
+                vida = (vida - 20);
                 System.out.println("Vida actual"+vida);
             }
         }
