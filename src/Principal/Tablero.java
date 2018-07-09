@@ -11,6 +11,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
+import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.ImageIcon;
@@ -276,7 +277,6 @@ public class Tablero extends JPanel implements ActionListener {
                 }
                 break;
             case 3:
-                
                 Image finale = new ImageIcon(getClass().getResource("/recursos/Final.jpg")).getImage();
                 fondo = finale;
                 
@@ -288,8 +288,8 @@ public class Tablero extends JPanel implements ActionListener {
                 punta.setLocation(810, 5);
                 punta.setText(String.valueOf(puntaje));
                 if (ini == 2) {
-                    craft.setX(17);
-                    craft.setY(859);
+                    craft.setX(755);
+                    craft.setY(354);
                     ini = 3;
                 }                
                 break;
