@@ -14,10 +14,10 @@ public class Proyectil {
     private Image image;
     private boolean activo;
     
-    Image de = new ImageIcon(getClass().getResource("/recursos/flecha11.png")).getImage();
-    Image iz = new ImageIcon(getClass().getResource("/recursos/iz.png")).getImage();
-    Image ar = new ImageIcon(getClass().getResource("/recursos/ar.png")).getImage();
-    Image ab = new ImageIcon(getClass().getResource("/recursos/ab.png")).getImage();
+    Image de = new ImageIcon(getClass().getResource("/recursos/AT.png")).getImage();
+    Image iz = new ImageIcon(getClass().getResource("/recursos/AT.png")).getImage();
+    Image ar = new ImageIcon(getClass().getResource("/recursos/AT.png")).getImage();
+    Image ab = new ImageIcon(getClass().getResource("/recursos/AT.png")).getImage();
       
     public Proyectil() {
         initCrafti();

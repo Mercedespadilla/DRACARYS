@@ -48,10 +48,10 @@ public class Tablero extends JPanel implements ActionListener {
     private JTextField punta;
     private String nickname;
     Font fuente=new Font("Dialog", Font.BOLD, 36);
-    Image de = new ImageIcon(getClass().getResource("/recursos/flecha11.png")).getImage();
-    Image iz = new ImageIcon(getClass().getResource("/recursos/iz.png")).getImage();
-    Image ar = new ImageIcon(getClass().getResource("/recursos/ar.png")).getImage();
-    Image ab = new ImageIcon(getClass().getResource("/recursos/ab.png")).getImage();
+    Image de = new ImageIcon(getClass().getResource("/recursos/AT.png")).getImage();
+    Image iz = new ImageIcon(getClass().getResource("/recursos/AT.png")).getImage();
+    Image ar = new ImageIcon(getClass().getResource("/recursos/AT.png")).getImage();
+    Image ab = new ImageIcon(getClass().getResource("/recursos/AT.png")).getImage();
     Image life1 = new ImageIcon(getClass().getResource("/recursos/vida1.png")).getImage();
     Image life2 = new ImageIcon(getClass().getResource("/recursos/vida2.png")).getImage();
     Image life3 = new ImageIcon(getClass().getResource("/recursos/vida3.png")).getImage();
