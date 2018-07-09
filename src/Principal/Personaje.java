@@ -44,8 +44,8 @@ public class Personaje {
     private void initCraft() {
         image = gAr2;
         
-        x = 17;
-        y = 800;        
+        x = 24;
+        y = 604;        
     }
     public void setActivo(boolean activo) {
         this.activo = activo;
