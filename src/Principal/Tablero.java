@@ -407,12 +407,12 @@ public class Tablero extends JPanel implements ActionListener {
                     //add(punta);
                 }
                 if(!craft.isActivo()){
-                    nickname = JOptionPane.showInputDialog("What is the name of who has tried to beat me? ", "Player");
+                    nickname = JOptionPane.showInputDialog("¿Cual es el nombre quien trataba de vencerme? ", "Jugador");
                     System.out.println(nickname);
                 }
                 if(craft.isActivo() && m == 3 && bossvida <=0){
                     boss.setActivo(false);
-                    nickname = JOptionPane.showInputDialog("Whats yoour name, hero? ", "Player");
+                    nickname = JOptionPane.showInputDialog("¿Cual es tu nombre, heroe? ", "Jugador");
                     System.out.println(nickname);
                 }
             }
