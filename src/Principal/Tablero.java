@@ -290,8 +290,8 @@ public class Tablero extends JPanel implements ActionListener {
                 punta.setLocation(810, 5);
                 punta.setText(String.valueOf(puntaje));
                 if (ini == 2) {
-                    craft.setX(850);
-                    craft.setY(849);
+                    craft.setX(17);
+                    craft.setY(859);
                     ini = 3;
                 }                
                 break;
