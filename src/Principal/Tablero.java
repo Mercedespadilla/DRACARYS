@@ -276,12 +276,14 @@ public class Tablero extends JPanel implements ActionListener {
                 }
                 break;
             case 3:
+                
                 Image finale = new ImageIcon(getClass().getResource("/recursos/Final.jpg")).getImage();
                 fondo = finale;
+                
                 if(bossi == 0){
                     boss.setActivo(true);
                     bossi = 1;
-                }         
+                }
                 estrella.setActivo(false);
                 punta.setLocation(810, 5);
                 punta.setText(String.valueOf(puntaje));

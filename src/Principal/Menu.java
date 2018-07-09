@@ -17,7 +17,7 @@ public class Menu extends JFrame {
     private void initUI() {
         
         add(new Tablero());
-        setSize(960, 700);
+        setSize(960, 960);
         setResizable(false);
         
         setTitle("THE DRACARYS NAME");
